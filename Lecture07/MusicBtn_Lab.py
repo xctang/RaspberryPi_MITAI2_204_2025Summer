@@ -10,5 +10,7 @@ btn_Noise = Button(2)
 
 #def hello():
 #    print('hello')
-    
+
+#btn_Noise.when_pressed = hello
+
 btn_Noise.when_pressed = Noise.play
